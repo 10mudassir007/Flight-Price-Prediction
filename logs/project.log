@@ -1,0 +1,158 @@
+2025-08-31 12:32:24,432 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.kaggle.com:443
+2025-08-31 12:32:27,674 [DEBUG] urllib3.connectionpool: https://www.kaggle.com:443 "GET /api/v1/datasets/view/shubhambathwal/flight-price-prediction HTTP/1.1" 200 None
+2025-08-31 12:32:31,616 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:31,617 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:31,617 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Mumbai%2CIndia&format=json&limit=1
+2025-08-31 12:32:31,620 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:32,754 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Mumbai%2CIndia&format=json&limit=1 HTTP/1.1" 200 442
+2025-08-31 12:32:32,896 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:32,898 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:32,898 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Bangalore%2CIndia&format=json&limit=1
+2025-08-31 12:32:32,901 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:33,627 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bangalore%2CIndia&format=json&limit=1 HTTP/1.1" 200 462
+2025-08-31 12:32:33,744 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:33,746 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:33,750 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Kolkata%2CIndia&format=json&limit=1
+2025-08-31 12:32:33,752 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:34,566 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kolkata%2CIndia&format=json&limit=1 HTTP/1.1" 200 426
+2025-08-31 12:32:34,692 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:34,692 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:34,702 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Hyderabad%2CIndia&format=json&limit=1
+2025-08-31 12:32:34,707 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:35,724 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hyderabad%2CIndia&format=json&limit=1 HTTP/1.1" 200 458
+2025-08-31 12:32:35,853 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:35,853 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:35,854 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Chennai%2CIndia&format=json&limit=1
+2025-08-31 12:32:35,881 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:36,733 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Chennai%2CIndia&format=json&limit=1 HTTP/1.1" 200 419
+2025-08-31 12:32:36,868 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:36,869 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:32:36,869 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Delhi%2CIndia&format=json&limit=1
+2025-08-31 12:32:36,888 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:32:37,750 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Delhi%2CIndia&format=json&limit=1 HTTP/1.1" 200 407
+2025-08-31 12:34:58,658 [INFO] __main__: Loading dataset...
+2025-08-31 12:35:02,515 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.kaggle.com:443
+2025-08-31 12:35:05,771 [DEBUG] urllib3.connectionpool: https://www.kaggle.com:443 "GET /api/v1/datasets/view/shubhambathwal/flight-price-prediction HTTP/1.1" 200 None
+2025-08-31 12:35:08,883 [INFO] __main__: Adding coordinates...
+2025-08-31 12:35:09,262 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:09,262 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:09,263 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Mumbai%2CIndia&format=json&limit=1
+2025-08-31 12:35:09,265 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:10,054 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Mumbai%2CIndia&format=json&limit=1 HTTP/1.1" 200 442
+2025-08-31 12:35:10,176 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:10,176 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:10,177 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Bangalore%2CIndia&format=json&limit=1
+2025-08-31 12:35:10,199 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:11,059 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bangalore%2CIndia&format=json&limit=1 HTTP/1.1" 200 462
+2025-08-31 12:35:11,300 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:11,301 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:11,301 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Kolkata%2CIndia&format=json&limit=1
+2025-08-31 12:35:11,304 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:11,877 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kolkata%2CIndia&format=json&limit=1 HTTP/1.1" 200 426
+2025-08-31 12:35:12,065 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:12,065 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:12,066 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Hyderabad%2CIndia&format=json&limit=1
+2025-08-31 12:35:12,069 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:13,114 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hyderabad%2CIndia&format=json&limit=1 HTTP/1.1" 200 458
+2025-08-31 12:35:13,406 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:13,407 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:13,407 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Chennai%2CIndia&format=json&limit=1
+2025-08-31 12:35:13,410 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:14,272 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Chennai%2CIndia&format=json&limit=1 HTTP/1.1" 200 419
+2025-08-31 12:35:14,523 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:14,523 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 12:35:14,524 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Delhi%2CIndia&format=json&limit=1
+2025-08-31 12:35:14,527 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 12:35:15,329 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Delhi%2CIndia&format=json&limit=1 HTTP/1.1" 200 407
+2025-08-31 12:36:39,002 [INFO] __main__: Preparing features...
+2025-08-31 12:36:39,264 [INFO] __main__: Saving processed data...
+2025-08-31 12:37:00,612 [INFO] __main__: Splitting into train/test...
+2025-08-31 12:37:01,350 [INFO] __main__: Encoding categorical features...
+2025-08-31 12:37:03,199 [INFO] __main__: Training Base Models (Sklearn)...
+2025-08-31 12:37:04,041 [INFO] __main__: LinearRegression R²: 0.9002
+2025-08-31 12:37:12,086 [INFO] __main__: DecisionTree R²: 0.9754
+2025-08-31 12:47:51,007 [INFO] __main__: RandomForest R²: 0.9756
+2025-08-31 12:47:52,648 [INFO] __main__: Training Boosting Models...
+2025-08-31 12:50:14,947 [INFO] __main__: XGBoost R²: 0.9675
+2025-08-31 12:57:44,186 [INFO] __main__: CatBoost R²: 0.9660
+2025-08-31 13:05:04,205 [INFO] __main__: LightGBM R²: 0.9606
+2025-08-31 13:05:04,344 [INFO] __main__: Training pipeline completed successfully!
+2025-08-31 13:25:28,707 [INFO] __main__: Loading dataset...
+2025-08-31 13:25:29,409 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:25:30,498 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): www.kaggle.com:443
+2025-08-31 13:25:31,245 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:25:31,893 [DEBUG] urllib3.connectionpool: https://www.kaggle.com:443 "GET /api/v1/datasets/view/shubhambathwal/flight-price-prediction HTTP/1.1" 200 None
+2025-08-31 13:25:32,890 [INFO] __main__: Adding coordinates...
+2025-08-31 13:25:32,986 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:32,986 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:32,987 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Mumbai%2CIndia&format=json&limit=1
+2025-08-31 13:25:32,988 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:34,000 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Mumbai%2CIndia&format=json&limit=1 HTTP/1.1" 200 442
+2025-08-31 13:25:34,049 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:34,049 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:34,049 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Bangalore%2CIndia&format=json&limit=1
+2025-08-31 13:25:34,051 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:34,996 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bangalore%2CIndia&format=json&limit=1 HTTP/1.1" 200 462
+2025-08-31 13:25:35,044 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:35,044 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:35,045 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Kolkata%2CIndia&format=json&limit=1
+2025-08-31 13:25:35,046 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:35,836 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kolkata%2CIndia&format=json&limit=1 HTTP/1.1" 200 426
+2025-08-31 13:25:35,882 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:35,882 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:35,882 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Hyderabad%2CIndia&format=json&limit=1
+2025-08-31 13:25:35,884 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:36,952 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hyderabad%2CIndia&format=json&limit=1 HTTP/1.1" 200 458
+2025-08-31 13:25:36,997 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:36,997 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:36,998 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Chennai%2CIndia&format=json&limit=1
+2025-08-31 13:25:36,999 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:37,983 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Chennai%2CIndia&format=json&limit=1 HTTP/1.1" 200 419
+2025-08-31 13:25:38,031 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:38,031 [DEBUG] urllib3.util.retry: Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-08-31 13:25:38,032 [DEBUG] geopy: Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Delhi%2CIndia&format=json&limit=1
+2025-08-31 13:25:38,033 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-08-31 13:25:39,035 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Delhi%2CIndia&format=json&limit=1 HTTP/1.1" 200 407
+2025-08-31 13:25:59,356 [INFO] __main__: Preparing features...
+2025-08-31 13:25:59,440 [INFO] __main__: Saving processed data...
+2025-08-31 13:26:05,641 [INFO] __main__: Splitting into train/test...
+2025-08-31 13:26:05,896 [INFO] __main__: Encoding categorical features...
+2025-08-31 13:26:06,459 [INFO] __main__: Training Base Models...
+2025-08-31 13:26:06,459 [INFO] __main__: Training Linear Regression...
+2025-08-31 13:26:06,798 [DEBUG] git.cmd: Popen(['git', 'version'], cwd=E:\Mudassir\KONG\personal\Flight-Price-Prediction, stdin=None, shell=False, universal_newlines=False)
+2025-08-31 13:26:06,896 [DEBUG] git.cmd: Popen(['git', 'version'], cwd=E:\Mudassir\KONG\personal\Flight-Price-Prediction, stdin=None, shell=False, universal_newlines=False)
+2025-08-31 13:26:06,993 [DEBUG] git.util: sys.platform='win32', git_executable='git'
+2025-08-31 13:26:07,000 [DEBUG] git.cmd: Popen(['git', 'check-ignore', 'E:\\Mudassir\\KONG\\personal\\Flight-Price-Prediction'], cwd=E:\Mudassir\KONG\personal\Flight-Price-Prediction, stdin=None, shell=False, universal_newlines=False)
+2025-08-31 13:26:07,133 [DEBUG] git.cmd: Popen(['git', 'cat-file', '--batch-check'], cwd=E:\Mudassir\KONG\personal\Flight-Price-Prediction, stdin=<valid stream>, shell=False, universal_newlines=False)
+2025-08-31 13:26:07,715 [INFO] __main__: LinearRegression R²: 0.9002
+2025-08-31 13:26:10,917 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:26:12,903 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:26:31,841 [INFO] __main__: Training Decision Tree...
+2025-08-31 13:26:34,655 [INFO] __main__: DecisionTree R²: 0.9754
+2025-08-31 13:26:41,106 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:26:43,317 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:26:44,134 [INFO] __main__: Training Random Forest...
+2025-08-31 13:26:51,403 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:26:53,209 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:31:51,613 [INFO] __main__: RandomForest R²: 0.9757
+2025-08-31 13:32:01,549 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:32:05,519 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:33:13,592 [INFO] __main__: Training Boosting Models...
+2025-08-31 13:33:13,594 [INFO] __main__: Training XGBoost...
+2025-08-31 13:33:15,231 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:33:18,148 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:33:18,292 [INFO] __main__: XGBoost R²: 0.9675
+2025-08-31 13:33:26,233 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:33:28,964 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:33:30,058 [INFO] __main__: Training CatBoost...
+2025-08-31 13:33:37,057 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:33:39,520 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:35:21,597 [INFO] __main__: CatBoost R²: 0.9660
+2025-08-31 13:35:28,758 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:35:34,465 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:36:35,805 [INFO] __main__: Training LightGBM...
+2025-08-31 13:36:43,326 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:36:47,482 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2025-08-31 13:39:20,604 [INFO] __main__: LightGBM R²: 0.9606
+2025-08-31 13:39:21,780 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2025-08-31 13:39:25,057 [DEBUG] urllib3.connectionpool: https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30

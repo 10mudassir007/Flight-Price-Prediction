@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+geopy
+ydf
+xgboost
+catboost
+lightgbm
+matplotlib
+seaborn
+jupyter
+notebook
+fastapi
+uvicorn
+python-dotenv
+mlflow

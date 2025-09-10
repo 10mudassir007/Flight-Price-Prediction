@@ -1,0 +1,9 @@
+flight-project/
+.ipynb_checkpoints/
+.pytest_cache/
+catboost_info
+.gitignore
+requirements-dev.txt
+logs/
+mlruns/
+__pycache__/
