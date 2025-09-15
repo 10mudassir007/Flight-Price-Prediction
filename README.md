@@ -39,24 +39,44 @@ This project uses historical flight data and statistical / machine learning meth
 ## Repo Structure
 
 Here’s a quick rundown of the folders & files:
+```
+Flight-Price-Prediction/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── requirements-dev.txt
+├── pytest.ini
+├── main.py
+├── main-base.py
+├── api.py
+├── pipeline.py
+├── mlflow_config.py
+├── logging_config.py
+├── data/
+│   ├── raw_data.csv
+│   └── processed_data.csv
+├── dist/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── placeholder.svg
+│   ├── robots.txt
+│   └── assets/
+├── logs/
+│   └── project.log
+├── notebooks/
+│   ├── flight_price.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── data.py
+│   ├── model.py
+│   ├── predict.py
+│   └── utils.py
+└── tests/
+    ├── test_data.py
+    ├── test_geoapi.py
+    └── test_models.py
 
-├── data/ # Raw or processed data used for training/experimentation
-├── logs/ # Log files
-├── notebooks/ # Jupyter notebooks for data exploration & model building
-├── src/ # Source code modules
-│ ├── pipeline.py # Pipeline logic (data prep, feature engineering, model training)
-│ ├── api.py # API definitions (prediction endpoints)
-│ ├── main.py # Entry point for launching the API
-│ ├── mlflow_config.py # Configuration for MLflow (if used for tracking)
-│ └── logging_config.py # Logging setup
-├── tests/ # Unit tests
-├── cbm_flight.pkl # Trained model serialized for inference
-├── flight_price.ipynb # Notebook exploring data/training process
-├── requirements.txt # Required packages
-├── requirements-dev.txt # Dev dependencies (testing, linting, etc.)
-└── pytest.ini # pytest configuration
-
-
+```
 ---
 
 ## Getting Started
@@ -75,16 +95,21 @@ Here’s a quick rundown of the folders & files:
 git clone https://github.com/10mudassir007/Flight-Price-Prediction.git
 cd Flight-Price-Prediction
 
-# Checkout structured branch (if not already)
-git checkout structured
-
 # Create and activate virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install requirements
 pip install -r requirements.txt
+pip install -r requirements-dev.txt  # optional, for testing and dev tools
 ```
+
+### Run the tests
+```bash
+pytest tests/
+```
+
+
 ### Run the pipeline
 
 ```bash
